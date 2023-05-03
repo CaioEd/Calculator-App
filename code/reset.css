@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    --preto: #191F32;
+    --azul-escuro: #3B4664;
+    --fundo-calc: #252D44;
+    --reset-del: #647298;
+    --red: #D13F30;
+
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:  1.6rem;
+
+    background-color: var(--azul-escuro);
+}
+
+input, button{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+
+    text-transform: uppercase;
+}
