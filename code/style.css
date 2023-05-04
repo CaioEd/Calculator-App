@@ -7,18 +7,17 @@
 #numbers-box{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 
     margin: 5rem auto auto auto;
 
-    width: 50rem;
+    width: 45rem;
     height: 7rem;
 
     background-color: var(--preto);
     color: white;
-    text-align: right;
 
-    font-size: 3rem;
+    font-size: 3.5rem;
 
     border-radius: 8px;
 }
@@ -26,15 +25,16 @@
 .buttons{
     margin-top: 3rem;
 
-    width: 50rem;
+    width: 45rem;
     height: 35rem;
 
     background-color: var(--fundo-calc);
 
     border-radius: 8px;
 
-    display: grid;
-    grid-template-columns: 10rem 10rem 10rem 10rem 10rem;
+    display: grid; /*4 colunas 5 linhas*/
+    grid-template-columns: 9.5rem 9.5rem 9.5rem 9.5rem 9.5rem;
+    column-gap: 1rem;
 }
 
 button{
@@ -43,7 +43,7 @@ button{
 
     cursor: pointer;
 
-    margin: 1rem 0 0 5.3rem;
+    margin: 1rem 0 0 2rem;
 
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.432);
